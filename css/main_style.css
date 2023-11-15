@@ -287,7 +287,7 @@ h1{
 }
 /* center_map */
 .section3_wrap{
-    width: 2000px;
+    width: 1320px;
     margin: 0 auto;
     position: relative;
 }
@@ -303,13 +303,13 @@ h1{
 }
 .cloud_img3{
     position: absolute;
-   top: 50px;
-   right: -100px;
+   top: 150px;
+   right: 0px;
 }
 .cloud_img4{
     position: absolute;
     top: 800px;
-    left: -80px;
+    left: -0px;
 }
 .cloud_img5{
     position: absolute;
@@ -436,60 +436,62 @@ h1{
     left: 201px;
 }
 /* section4 */
-.section4_wrap{
-    position: relative;
-    width: 2000px;
-    margin: 0 auto;
-}
-.cloud_img7{
-    position: absolute;
-    top: 20px;
-    left: 50px;
-}
-.cloud_img8{
-    position: absolute;
-    top: 0px;
-    left: 50px;
-}
-.cloud_img9{
-    position: absolute;
-    top: 100px;
-    right: -100px;
-}
-.cloud_img10{
-    position: absolute;
-    top: 500px;
-    left: -100px;
-}
-.cloud_img11{
-    position: absolute;
-    top: 500px;
-    right: 0;
-}
-.cloud_img12{
-    position: absolute;
-    top: 470px;
-    right: 150px;
-}
-.cloud_img13{
-    position: absolute;
-    top: 900px;
-    left: 0;
-}
-.cloud_img14{
-    position:absolute;
-    top: 850px;
-    left: -100px;
-}
-.cloud_img15{
-    position: absolute;
-    top: 970px;
-    right: 80px;
-}
 #section4{
     width: 1320px;
     margin: 0 auto 100px;
 }
+.section4_wrap{
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cloud_img7{
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+.cloud_img8{
+    position: absolute;
+    top: 200px;
+    left: -150px;
+}
+.cloud_img9{
+    position: absolute;
+    top: 450px;
+    right: -140px;
+}
+.cloud_img10{
+    position: absolute;
+    top: 420px;
+    right: -190px;
+}
+.cloud_img11{
+    position: absolute;
+    top: 700px;
+    left: -230px;
+}
+.cloud_img12{
+    position: absolute;
+    top: 900px;
+    right: -170px;
+}
+.cloud_img13{
+    position: absolute;
+    top: 0px;
+    left: -300px;
+}
+.cloud_img14{
+    position:absolute;
+    top: 900px;
+    left: -250px;
+}
+.cloud_img15{
+    position: absolute;
+    top: 100px;
+    right: -250px;
+}
+
 .calendar_reservation_wrap{
    /* background-color: #ddd; */
    height:629px;
