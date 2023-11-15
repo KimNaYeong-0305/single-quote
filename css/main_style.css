@@ -119,26 +119,25 @@ h1{
 
 #banner{
     height: 530px;
-    background-image: url(../images/banner1.svg);
+    background-image: url(../images/banner1.png);
     background-repeat: no-repeat;
     background-position: center top;
-    animation: banner_ani 10s infinite linear;
+    animation: banner_ani 15s infinite linear;
 }
 @keyframes banner_ani{
-   0%{background-image: url(../images/banner/banner1.svg);}
-   33.3%{background-image: url(../images/banner/banner2.svg);}
-   66.6%{background-image: url(../images/banner/banner3.svg);}
-   100%{background-image: url(../images/banner/banner1.svg);}
+   0%{background-image: url(../images/banner/banner1.png);}
+   33.3%{background-image: url(../images/banner/banner2.png);}
+   66.6%{background-image: url(../images/banner/banner3.png);}
+   100%{background-image: url(../images/banner/banner1.png);}
 }  
-#container{
-   
-}
+
 #section1{
     width: 1320px;
     margin: 0 auto;
     position: relative;
     height: 925px;
 }
+
 .title{
     text-align: center;
     padding-top: 80px;
@@ -153,40 +152,34 @@ h1{
     padding-bottom: 50px;
 }
 .character1{
-    background: url(../images/section1/character1.svg)no-repeat 100% 200%;
+    background: url(../images/section1/character1.svg)no-repeat center;
     height: 640px;
+    padding: 25px 0 0 96px;
+    box-sizing: border-box;
 }
-#section1{
-    position: relative;
-}
+
 .search_bar{
     width: 900px;
-    height: 100px;
-    margin: 50px auto;
-    padding: 17px 0 0 50px;
+    height: 100px;    
     box-sizing: border-box;
-    position: absolute;
-    top: 170px;
-    left: 141px;
-    z-index: 9;
+    position: relative;
 }
 .search_bar input{
     display: block;
-    width: 90%;
-    margin: 0 auto;
+    width: 86%;
     height: 60px; 
     outline: none;
     border: none;
     color: #333;
     font-size: 30px;
+    margin-left: 30px;
 }
 .search_bar input::placeholder{
     color: #ddd;
 }
 .emotion_button{
-    position: absolute;
-    top: 350px;
-    left:200px;
+    overflow: hidden;
+    margin-top: 20px;
 }
 .emotion_button li{
     float: left;
@@ -205,9 +198,7 @@ h1{
     background-color: #eeaa2b;
 }
 .sub_text{
-    position: absolute;
-    top: 710px;
-    left: 210px;
+    margin: 30px 0 0 10px;
 }
 .sub_text p{
     font-weight: 600;
@@ -295,22 +286,61 @@ h1{
     height: 42px;
 }
 /* center_map */
+.section3_wrap{
+    width: 2000px;
+    margin: 0 auto;
+    position: relative;
+}
+.cloud_img1{
+    position: absolute;
+    top: 50px;
+    left: -150px;
+}
+.cloud_img2{
+    position: absolute;
+    top: 150px;
+    left: 0;
+}
+.cloud_img3{
+    position: absolute;
+   top: 50px;
+   right: -100px;
+}
+.cloud_img4{
+    position: absolute;
+    top: 800px;
+    left: -80px;
+}
+.cloud_img5{
+    position: absolute;
+    top :800px;
+    right: 200px;
+}
+.cloud_img6{
+    position: absolute;
+    top: 750px;
+    right: 100px;
+}
 #section3{
     width: 1320px;
     margin: 0 auto;
-    text-align: center;
-    height: 650px;
+    text-align: center;    
+}
+
+.center_map{
     position: relative;
+    height: 840px;
+    overflow: hidden;
 }
 .character2{
     position: absolute;
-    top: 230px;
-    left: 50px;
+    top: 30px;
+    left: 100px;
     z-index: 9;
 }
 .center_wrap{
     background-color: rgba(222, 222, 222, 0.2);
-    border: 1px solid #ddd;
+    border: 1px solid #0F4440;
     box-shadow: 5px 5px 5px rgba(222, 222, 222, 1);
     height: 353px;
     width: 399px;
@@ -318,6 +348,9 @@ h1{
     margin-top: 200px;
     border-radius: 40px 0 40px 0;
     position: relative;
+}
+.center_text p{
+    font-weight: 600;
 }
 .img_slide{
     position: absolute;
@@ -330,23 +363,23 @@ h1{
 	left:0;	
 	width:363px;
 	height:242px;
-	background-size:cove;
     border-radius: 30px 0 30px 0;
     margin: 18px;
+    border: 1px solid #0F4440;
 
 }
 .img1{
 	z-index:2;
-	background:url(../images/room01.jpg) no-repeat left center;
+	background:url(../images/section3/center_img1.jpg) no-repeat left center;
 }
 .img2{
-	background:url(../images/room02.jpg) no-repeat left center;
+	background:url(../images/section3/center_img2.jpg) no-repeat left center;
 }
 .img3{
-	background:url(../images/room03.jpg) no-repeat left center;
+	background:url(../images/section3/center_img3.jpg) no-repeat left center;
 }
 .img4{
-	background:url(../images/room04.jpg) no-repeat left center;
+	background:url(../images/section3/center_img4.jpg) no-repeat left center;
 }
 .center_photo{
     height: 252px;
@@ -370,8 +403,9 @@ h1{
     height: 900px;
     width: 684px;
     float: right;
-    background: url(../images/section3/busan_map.svg)no-repeat;
+    background: url(../images/section3/busan_map.png) no-repeat center;
     position: relative;
+    background-size: ;
 }
 .character3{
     background: url(../images/section3/cloudcharater2.svg)no-repeat;
@@ -383,32 +417,78 @@ h1{
 }
 #button1{
     position: absolute;
-    top: 100px;
-    right: 380px;
+    top: 159px;
+    right: 453px;
 } 
 #button2{
     position: absolute;
-    top: -80px;
-    left: 240px;
-    z-index: 9;
-    margin-right: 160px;
+    top: 59px;
+    left: 307px;
 }
 #button3{
     position: absolute;
-    top: -200px;
-    left:300px;
-    padding: 50px;
+    top: 0px;
+    left: 422px;;
 }
 #button4{
     position: absolute;
-    top: -110px;
-    left: -150px;
-    padding: 270px;
+    top: 277px;
+    left: 201px;
 }
 /* section4 */
+.section4_wrap{
+    position: relative;
+    width: 2000px;
+    margin: 0 auto;
+}
+.cloud_img7{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+.cloud_img8{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+.cloud_img9{
+    position: absolute;
+    top: 100px;
+    right: -100px;
+}
+.cloud_img10{
+    position: absolute;
+    top: 500px;
+    left: -100px;
+}
+.cloud_img11{
+    position: absolute;
+    top: 500px;
+    right: 0;
+}
+.cloud_img12{
+    position: absolute;
+    top: 470px;
+    right: 150px;
+}
+.cloud_img13{
+    position: absolute;
+    top: 900px;
+    left: 0;
+}
+.cloud_img14{
+    position:absolute;
+    top: 850px;
+    left: -100px;
+}
+.cloud_img15{
+    position: absolute;
+    top: 970px;
+    right: 80px;
+}
 #section4{
     width: 1320px;
-    margin: 400px auto;
+    margin: 0 auto 100px;
 }
 .calendar_reservation_wrap{
    /* background-color: #ddd; */
@@ -542,6 +622,10 @@ td {
    padding: 8px 0;
    border-bottom: 1px dotted #0F4440;
 }
+.notice_text li a{
+    color: #127068;
+    font-weight: 600;
+}
 .notice_text li a span{
     display: block;
     position: absolute;
@@ -558,15 +642,31 @@ td {
     border-radius: 0 30px 0 30px;
 }
 .day_schedule{
-    background: url(../images/section4/sunicon.svg)no-repeat 0px 0px;
+    background: url(../images/section4/sun_icon.svg)no-repeat 0px 30px;
+    height: 114px;
     /* background-color: #e6a122; */
-    padding: 30px 30px 30px 200px;
+    padding: 30px 0px 0px 200px;
    margin-left: 50px;
 }
+.day_schedule h3{
+    color: #F17445;
+}
+.day_schedule p{
+    font-weight: 600;
+}
+.night_schedule h3{
+    color: #127068;
+}
+.night_schedule p{
+    font-weight: 600;
+}
+
 .night_schedule{
-    background: url(../images/section4/moonicon.svg)no-repeat ;
-    padding: 30px 30px 30px 200px;
+    background: url(../images/section4/moon_icon.svg)no-repeat 0 30px;
+    height: 114px;
+    padding: 30px 0 0px 200px;
     margin-left: 50px;
+    /* background-color: #00a19a; */
 }
 #footer{
     background-color: #81BBB5;
