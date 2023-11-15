@@ -309,7 +309,7 @@ h1{
 .cloud_img4{
     position: absolute;
     top: 800px;
-    left: -0px;
+    left: 0px;
 }
 .cloud_img5{
     position: absolute;
@@ -320,6 +320,16 @@ h1{
     position: absolute;
     top: 750px;
     right: 100px;
+}
+.cloud_img7{
+    position: absolute;
+    top: 550px;
+    left: 350px;
+}
+.cloud_img8{
+    position: absolute;
+    top: 350px;
+    right: 300px;
 }
 #section3{
     width: 1320px;
@@ -411,7 +421,26 @@ h1{
     background: url(../images/section3/cloudcharater2.svg)no-repeat;
     height: 107px;
     margin-top: 100px;
-}  
+    animation: ani 10s infinite;
+} 
+@keyframes ani{
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(50px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    75%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
 .center{
     position: relative;
 }
@@ -439,57 +468,6 @@ h1{
 #section4{
     width: 1320px;
     margin: 0 auto 100px;
-}
-.section4_wrap{
-    width: 1320px;
-    margin: 0 auto;
-    position: relative;
-}
-
-.cloud_img7{
-    position: absolute;
-    top: 0;
-    right: 0px;
-}
-.cloud_img8{
-    position: absolute;
-    top: 200px;
-    left: -150px;
-}
-.cloud_img9{
-    position: absolute;
-    top: 450px;
-    right: -140px;
-}
-.cloud_img10{
-    position: absolute;
-    top: 420px;
-    right: -190px;
-}
-.cloud_img11{
-    position: absolute;
-    top: 700px;
-    left: -230px;
-}
-.cloud_img12{
-    position: absolute;
-    top: 900px;
-    right: -170px;
-}
-.cloud_img13{
-    position: absolute;
-    top: 0px;
-    left: -300px;
-}
-.cloud_img14{
-    position:absolute;
-    top: 900px;
-    left: -250px;
-}
-.cloud_img15{
-    position: absolute;
-    top: 100px;
-    right: -250px;
 }
 
 .calendar_reservation_wrap{
