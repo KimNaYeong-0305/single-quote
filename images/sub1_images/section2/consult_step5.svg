@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="211" height="274" viewBox="0 0 211 274">
+  <g id="그룹_2729" data-name="그룹 2729" transform="translate(-2746 3435)">
+    <g id="사각형_135" data-name="사각형 135" transform="translate(2746 -3400)" fill="none" stroke="#129082" stroke-width="5">
+      <rect width="211" height="239" rx="38" stroke="none"/>
+      <rect x="2.5" y="2.5" width="206" height="234" rx="35.5" fill="none"/>
+    </g>
+    <circle id="타원_62" data-name="타원 62" cx="39" cy="39" r="39" transform="translate(2812 -3435)" fill="#129082"/>
+    <text id="_5" data-name="5" transform="translate(2839 -3378)" fill="#fff" font-size="44" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">5</tspan></text>
+    <g id="map-location-flag" transform="translate(2823 -3335.59)">
+      <g id="그룹_62" data-name="그룹 62" transform="translate(0)">
+        <path id="패스_116" data-name="패스 116" d="M26.709,0H16.058a2.165,2.165,0,0,0-2.316,2.123V57.31a2.5,2.5,0,0,0,2.316,2.509H26.709a2.631,2.631,0,0,0,2.47-2.509V37.859c3.087-.617,12.581-2.007,17.6,3.551a11.271,11.271,0,0,0,8.683,3.859c5.249,0,10.536-3.01,13.507-5.4a2.386,2.386,0,0,0,.849-1.814l-.463-25.78a2.3,2.3,0,0,0-1.235-2.007,2.25,2.25,0,0,0-2.354.154c-1.891,1.274-7.719,4.4-11.809,3.4a5.635,5.635,0,0,1-3.743-3.126C47.665,5.866,42.648,3.2,35.624,3.01a33.581,33.581,0,0,0-6.445.425V2.123A2.3,2.3,0,0,0,26.709,0ZM24.548,55.188H18.373V4.631h6.175ZM46.16,12.851a10.159,10.159,0,0,0,6.677,5.442c4.207,1.042,8.838-.579,11.964-2.045l.347,20.686c-2.586,1.814-10.266,6.561-14.935,1.389-6.175-6.869-16.788-5.982-21.033-5.171V8.143C33.038,7.41,42.764,6.406,46.16,12.851Z" transform="translate(-13.742)" fill="#129082"/>
+      </g>
+    </g>
+    <text id="종결_및_추후_관리" data-name="종결 및
+추후 관리" transform="translate(2852 -3239)" fill="#129082" font-size="20" font-family="NanumSquareOTFR, NanumSquareOTF"><tspan x="-29.8" y="0">종결 및</tspan><tspan x="-38.9" y="23">추후 관리</tspan></text>
+  </g>
+</svg>

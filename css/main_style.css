@@ -295,41 +295,69 @@ h1{
     position: absolute;
     top: 50px;
     left: -150px;
+    animation: ani 10s infinite linear;
+}
+@keyframes ani{
+    0%{
+        transform: translatex(0px);
+    }
+    100%{
+        transform: translatex(100px);
+    }
+}
+@keyframes ani{
+    0%{
+        transform: translatex(100px);
+    }
+    50%{
+        transform: translatex(0px);
+    }
+    100%{
+        transform: translatex(100px);
+    }
 }
 .cloud_img2{
     position: absolute;
     top: 150px;
     left: 0;
+    animation: ani 10s infinite linear;
 }
 .cloud_img3{
     position: absolute;
    top: 150px;
    right: 0px;
+   animation: ani 10s infinite linear;
 }
 .cloud_img4{
     position: absolute;
     top: 800px;
     left: 0px;
+    animation: ani 10s infinite linear;
 }
 .cloud_img5{
     position: absolute;
     top :800px;
     right: 200px;
+    animation: ani 10s infinite linear;
+
 }
 .cloud_img6{
     position: absolute;
     top: 750px;
     right: 100px;
+    animation: ani 10s infinite linear;
 }
 .cloud_img7{
     position: absolute;
     top: 550px;
     left: 350px;
+    animation: ani 10s infinite linear;
 }
 .cloud_img8{
     position: absolute;
     top: 350px;
     right: 300px;
+    animation: ani 10s infinite linear;
 }
 #section3{
     width: 1320px;
@@ -338,15 +366,41 @@ h1{
 }
 
 .center_map{
-    position: relative;
     height: 840px;
     overflow: hidden;
 }
 .character2{
+    position: relative;
+}
+.face{
     position: absolute;
     top: 30px;
-    left: 100px;
+    left: 60px;
     z-index: 9;
+    animation: tapir 10s infinite;
+}
+.hands{
+    position: absolute;
+    top: 175px;
+    left: 85px;
+    z-index: 10;
+}
+@keyframes tapir{
+    0%{
+        transform:rotate(5deg);
+    }
+    25%{
+        transform: rotate(-10deg);
+    }
+    50%{
+        transform: rotate(5deg);
+    }
+    75%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(5deg);
+    }
 }
 .center_wrap{
     background-color: rgba(222, 222, 222, 0.2);
@@ -421,9 +475,9 @@ h1{
     background: url(../images/section3/cloudcharater2.svg)no-repeat;
     height: 107px;
     margin-top: 100px;
-    animation: ani 10s infinite;
+    animation: cloud 10s infinite;
 } 
-@keyframes ani{
+@keyframes cloud{
     0%{
         transform: translateY(0px);
     }

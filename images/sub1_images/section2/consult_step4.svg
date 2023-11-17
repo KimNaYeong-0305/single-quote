@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="211" height="274" viewBox="0 0 211 274">
+  <g id="그룹_2728" data-name="그룹 2728" transform="translate(-2521 3435)">
+    <g id="사각형_135" data-name="사각형 135" transform="translate(2521 -3400)" fill="none" stroke="#129082" stroke-width="5">
+      <rect width="211" height="239" rx="38" stroke="none"/>
+      <rect x="2.5" y="2.5" width="206" height="234" rx="35.5" fill="none"/>
+    </g>
+    <circle id="타원_62" data-name="타원 62" cx="39" cy="39" r="39" transform="translate(2587 -3435)" fill="#129082"/>
+    <text id="_4" data-name="4" transform="translate(2614 -3378)" fill="#fff" font-size="44" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">4</tspan></text>
+    <g id="edit-document" transform="translate(2596 -3333.721)">
+      <g id="그룹_82" data-name="그룹 82" transform="translate(0 0)">
+        <path id="패스_151" data-name="패스 151" d="M166.316.722,141.17,25.868a2.7,2.7,0,0,0-.753,1.757L140.25,40.47A2.527,2.527,0,0,0,141,42.311a2.681,2.681,0,0,0,1.757.837h.042l12.426-.251a2.593,2.593,0,0,0,1.757-.837L182.341,16.7a2.551,2.551,0,0,0,0-3.556L169.914.722A2.6,2.6,0,0,0,166.316.722ZM154.1,37.792l-8.786.126.126-9.2,12.8-12.8,8.828,8.954Zm16.527-16.527L161.8,12.312l6.276-6.276,8.87,8.87Z" transform="translate(-121.338 0)" fill="#129082"/>
+        <path id="패스_152" data-name="패스 152" d="M39.8,25.209a2.51,2.51,0,0,0,0-5.021h-25.1a2.518,2.518,0,0,0-2.51,2.51v57.32a2.518,2.518,0,0,0,2.51,2.51h46.86a2.518,2.518,0,0,0,2.51-2.51V56.589a2.51,2.51,0,1,0-5.021,0v20.92H17.2v-52.3Z" transform="translate(-12.183 -17.207)" fill="#129082"/>
+      </g>
+    </g>
+    <text id="프로그램_실시" data-name="프로그램 실시" transform="translate(2570 -3239)" fill="#129082" font-size="20" font-family="NanumSquareOTFR, NanumSquareOTF"><tspan x="0" y="0">프로그램 실시</tspan></text>
+  </g>
+</svg>

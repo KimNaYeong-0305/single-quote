@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* webfont */
+@font-face {
+    font-family: 'TAEBAEKmilkyway';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KorailRoundGothicBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KorailRoundGothicBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+/* body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, select, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+} */
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul,ol{
+    list-style: none;
+}
+html{
+    font-size: ;
+    line-height: ;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: ;
+}
+#wrap{
+    min-width: 1380px;
+}
+h1{
+    font-family: 'TAEBAEKmilkyway';
+    font-weight: normal;
+    font-style: normal;
+}
+#top{
+    border-top: 7px solid #00a19a;
+    height: 155px;
+    border-bottom: 3px solid #00a19a;
+}
+.top_inner{
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+.logo{
+    padding-top: 30px;
+}
+.link{
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.link li{
+    float: left;
+}
+.link li a{
+    display: block;
+    border: 1px solid #ddd;
+    padding: 2px 13px;
+    margin: 0 6px;
+    border-radius: 18px;
+}
+.link li a:hover{
+    background-color: #eee;
+}
+.gnb{/*text-align/가운데*/
+    display: inline-block;/*부모의 text-align:center; 적용을 위해 변환!!!*/
+    padding-top: 5px;
+}
+.gnb> li{
+    float: left;
+    position: relative;
+}
+.gnb> li> a{
+    display: block;
+    padding: 4px 10px 14px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+.gnb> li> a:hover{
+   color: #00a19a;
+}
+.submenu{
+    position: absolute;
+    top: 45px;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    display: none;
+}
+.gnb li:hover .submenu{
+    display: block;
+}
+.submenu li a{
+    display: block;
+    padding: 6px 0;
+    background:#00a19a;
+    color:#fff;
+    /* border-top: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(0,0,0,0.2); */
+}
+.submenu li a:hover{
+    background-color:#eeaa2b;
+}
+#banner{
+    height: 550px;
+    background: url(../images/sub1_images/banner/sub_banner.png)no-repeat center;
+}
+#section1{
+   width: 1320px;
+   margin: 0 auto;
+}
+.title{
+    text-align: center;
+    padding-top: 50px;
+}
+.title h1{
+    font-weight: bold;
+    padding-bottom:60px;
+}
+.center_wrap{
+    height: 346px;
+    padding-bottom: 50px;
+}
+.center_sign{
+    background: url(../images/sub1_images/section1/center_sign.jpg)no-repeat;
+    height: 346px;
+    width: 457px;
+    border-radius: 40px 0 40px 0;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    float: left;
+}
+.center_text{
+    width: 750px;
+    float: right;
+}
+.center_text h1{
+    color: #00a19a;
+    font-family: 'KorailRoundGothicBold';
+    font-size: 60px;
+}
+.center_text h3{
+    color: #7a7a7a;
+    font-weight: bolder;
+    font-size: 27px;
+}
+.center_text p{
+    font-weight: 600;
+    font-size: 21px;
+}
+.bi_ci{
+    font-family: 'KorailRoundGothicBold';
+    color: #00a19a;
+}
+.bi_ci_img{
+    background: url(../images/sub1_images/section1/bi_ci.png)no-repeat;
+    height:231px;
+}
