@@ -276,7 +276,7 @@ body{
 }
 /* center_map */
 .section3_wrap_wrap{
-    height:500px;
+    overflow: hidden;
 }
 .section3_wrap{
     width: 1320px;
@@ -287,25 +287,33 @@ body{
     position: absolute;
     top: 50px;
     left: -150px;
-    animation: ani 10s infinite linear;
+}
+@keyframes ani2{
+   0%{
+    transform: translateY(30px);
+   }
+   20%{
+    transform: translateY(0px);
+   }
+   40%{
+    transform: translateY(30px);
+   }
+   60%{
+    transform: translateY(0px);
+   }
+   80%{
+    transform: translateY(30px);
+   }
 }
 @keyframes ani{
     0%{
-        transform: translatex(0px);
-    }
-    100%{
-        transform: translatex(100px);
-    }
-}
-@keyframes ani{
-    0%{
-        transform: translatex(100px);
+        transform: translatex(50px);
     }
     50%{
         transform: translatex(0px);
     }
     100%{
-        transform: translatex(100px);
+        transform: translatex(50px);
     }
 }
 .cloud_img2{
@@ -318,13 +326,11 @@ body{
     position: absolute;
    top: 150px;
    right: 0px;
-   animation: ani 10s infinite linear;
 }
 .cloud_img4{
     position: absolute;
     top: 800px;
     left: 0px;
-    animation: ani 10s infinite linear;
 }
 .cloud_img5{
     position: absolute;
@@ -337,13 +343,12 @@ body{
     position: absolute;
     top: 750px;
     right: 100px;
-    animation: ani 10s infinite linear;
 }
 .cloud_img7{
     position: absolute;
     top: 550px;
     left: 350px;
-    animation: ani 10s infinite linear;
+    animation: ani2 10s infinite linear;
 }
 .cloud_img8{
     position: absolute;
