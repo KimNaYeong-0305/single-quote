@@ -1,9 +1,10 @@
 @charset "utf-8";
 /* webfont */
+/* 웹폰트 링크연결 */
 @font-face {
-    font-family: 'KorailRoundGothicBold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KorailRoundGothicBold.woff2') format('woff2');
-    font-weight: 700;
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
     font-style: normal;
 }
 /* body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, select, table, td, textarea, th, ul {
@@ -106,166 +107,96 @@ body{
 }
 #banner{
     height: 550px;
-    background: url(../images/sub1_images/banner/sub_banner.png)no-repeat center;
+    background: url(../images/sub4images/banner4.png)no-repeat center;
 }
 #section1{
-   width: 1320px;
-   margin: 0 auto;
+    width: 1320px;
+    margin: 0 auto;
 }
 .title{
     text-align: center;
 }
 .title h1{
     font-weight: bold;
-    padding-bottom:60px;
+    padding-bottom:50px;
     padding-top: 100px;
 }
-.center_wrap{
-    height: 346px;
-    padding-bottom: 50px;
-}
-.center_sign{
-    background: url(../images/sub1_images/section1/center_sign.jpg)no-repeat;
-    height: 346px;
-    width: 457px;
-    border-radius: 40px 0 40px 0;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    float: left;
-}
-.center_text{
-    width: 800px;
+.information_wrap{
+    height: 500px;
+}.information_text{
     float: right;
+    width: 680px;
 }
-.center_text h1{
-    color: #00a19a;
-    font-family: 'KorailRoundGothicBold';
-    font-size: 60px;
-}
-.center_text h3{
-    color: #7a7a7a;
+.information_text h3{
+    padding-bottom: 5px;
     font-weight: bolder;
-    font-size: 27px;
-}
-.center_text p{
-    font-weight: 600;
-    font-size: 21px;
-}
-.bi_ci{
-    font-family: 'KorailRoundGothicBold';
     color: #00a19a;
-    padding-bottom: 20px;
 }
-.bi_ci_img{
-    height: 142px;
-    border: 2px solid #00a19a;
-    padding-bottom: 30px;
-    padding: 40px 20px;
-    margin-bottom: 30px;
+.information_text p{
+    padding-bottom: 10px;
 }
-.bi_ci_img li{
-    float: left;
-    padding-left:80px;
-    padding-top: 15px;
-    text-align: center;
-}
-.bi_ci_text{
-    font-size: 21px;
-    font-weight: 600;
+.information_text span{
+    font-size: 12px;
+    color: #00a19a;
 }
 #section2{
     width: 1320px;
     margin: 0 auto;
-    height: 470px;
 }
-.consult_step{
+.mental_illness_text{
+    overflow: hidden;
+}
+.mental_illness_text li{
+    width: 380px;
+    float: left;
+    border: 2px solid #00a19a;
+    height: 590px;
+    background-repeat: no-repeat;
+    padding: 270px 20px 0;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-left: 45px;
     text-align: center;
-    /* background-color: #eeaa2b; */
 }
-.consult_step img{
-  margin: 0 20px;
+.mental_illness_img1{
+    background: url(../images/sub4images/schizophrenia_img.jpg);
+}
+.mental_illness_img2{
+    background: url(../images/sub4images/depression_img.jpg);
+}
+.mental_illness_img3{
+    background: url(../images/sub4images/bipolar\ disorde_img.jpg);
+}
+.mental_illness_text strong{
+    display: block;
+    border-bottom: 2px solid #00a19a;
+    text-align: center;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    font-size: 18px;
 }
 #section3{
     width: 1320px;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-th {
-    border: 2px solid #00a19a;
-    border-left: none;
-    border-right: none;
-    padding: 10px;
-    text-align: left;
-    color: #00a19a;
-    font-size: 25px;
-    font-weight: bolder;
-    text-align: center;
-}
-
-td {
-    border: 2px solid #00a19a;
-    border-right: none;
-    padding: 10px;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-}
-#section4{
-    width: 1320px;
-    margin: 0 auto 100px;
-    overflow: hidden;
-}
-.map_wrap{
-    height: 500px;
-}
-.map_text{
-    width: 30%;
+.information_text2{
     float: left;
+    width: 750px;
+    padding-left:50px
 }
-.map{
-    width: 65%;
+
+.information_img2{
+    width: 450px;
     float: right;
 }
-.transportation li{
-    font-weight: 600;
-    font-size: 20px;
-    margin-bottom: 25px;
-}
-.icon{
-    background: url(../images/sub1_images/section4/address.svg)no-repeat;
-    height: 46px;
-    padding-left: 70px;
-}
-.icon:nth-child(2){
-    background: url(../images/sub1_images/section4/telephone.svg)no-repeat;
-    height: 46px;
-}
-.icon:nth-child(3){
-    background: url(../images/sub1_images/section4/web_icon.svg)no-repeat;
-    height: 46px;
-}
-.icon:nth-child(4){
-    background: url(../images/sub1_images/section4/fax_icon.svg)no-repeat;
-    height: 46px;
-}
-.icon:nth-child(5){
-    background: url(../images/sub1_images/section4/bus.svg)no-repeat;
-    height: 46px;
-}
-.icon:nth-child(6){
-    background: url(../images/sub1_images/section4/subway.svg)no-repeat;
-    height: 46px;
-    margin-bottom: 60px;
-}
-.transportation span{
-    color: #00a19a;
+.information_text2 h3{
+    padding-bottom: 5px;
     font-weight: bolder;
+    color: #00a19a;
 }
-.transportation li select{
-    font-size: 17px;
+.information_text2 p{
+    padding-bottom: 10px;
 }
 #footer{
     background-color: #81BBB5;
