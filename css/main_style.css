@@ -304,13 +304,13 @@ body{
 }
 @keyframes ani{
     0%{
-        transform: translatex(50px);
+        transform: translatex(70px);
     }
     50%{
         transform: translatex(0px);
     }
     100%{
-        transform: translatex(50px);
+        transform: translatex(70px);
     }
 }
 .cloud_img2{
@@ -352,6 +352,11 @@ body{
     top: 350px;
     right: 300px;
     animation: ani 10s infinite linear;
+}
+.cloud_img9{
+    position: absolute;
+    top: 470px;
+    right: 430px;
 }
 #section3{
     width: 1320px;
