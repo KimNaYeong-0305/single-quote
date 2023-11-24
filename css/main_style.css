@@ -276,7 +276,7 @@ body{
 }
 /* center_map */
 .section3_wrap_wrap{
-	overflow:hidden;
+    height:1175px;
 }
 .section3_wrap{
     width: 1320px;
